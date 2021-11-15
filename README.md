@@ -1,4 +1,5 @@
 # Lab 8 - Starter
+Tanyunfeng Chen\
 Within a Github action that runs whenever code is pushed. Since it will automatically run our code for testing purpose. Save \
 No\
 No, the messaging feature should not be tested by unit test. Since message features are quite board, unit test won't be enough to test it.\
