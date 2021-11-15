@@ -14,7 +14,7 @@ test('41444-21 is not phone number', () => {
   expect(functions.isPhoneNumber('41444-21')).toBe(false);
 });
 test('11/12/2021 is Date', () => {
-  expect(functions.isDate('1/12/2021')).toBe(true);
+  expect(functions.isDate('11/12/2021')).toBe(true);
 });
 test('11/1/2021 is Date', () => {
   expect(functions.isDate('11/1/2021')).toBe(true);
@@ -36,7 +36,7 @@ test('231213123.com@ is not email address', () => {
     expect(functions.isEmail('231213123.com@')).toBe(false);
 });
 test('77s77d@123.cn is not email address', () => {
-    expect(functions.isEmail('231213123.com@')).toBe(false);
+    expect(functions.isEmail('77s77d@123.cn')).toBe(false);
 });
 
 test('STATabc is StrongPassword', () => {
